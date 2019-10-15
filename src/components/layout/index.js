@@ -1,13 +1,13 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Link } from 'gatsby';
-import { AboutModal } from './modal';
-import { rhythm, scale } from '../utils/typography';
+import { AboutModal } from '../modals';
+import { rhythm, scale } from '../../utils/typography';
 import { Divider } from 'semantic-ui-react';
 import GitHubButton from 'react-github-btn';
 import {
   shouldRenderContributor,
   shuffle
-} from '../utils/shouldRenderContributor';
+} from '../../utils/shouldRenderContributor';
 
 const Layout = props => {
   const [modalOpen, setModalOpen] = useState(false);

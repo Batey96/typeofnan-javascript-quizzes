@@ -1,5 +1,5 @@
 import React from 'react';
-import './bio.css';
+import './index.css';
 
 const Bio = () => {
   return (
